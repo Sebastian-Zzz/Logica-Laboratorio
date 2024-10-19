@@ -1,5 +1,3 @@
-
-
 contador= int(input("ingrese desde que ID quiere iniciar: "))
 while contador <=10:
     print(f"El ID de inventario es: {contador}\n")
