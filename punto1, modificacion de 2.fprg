@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="punto1"/>
+        <attribute name="authors" value="Sergi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-18 08:05:22 p.&#160;m."/>
+        <attribute name="created" value="U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDc6NDI6MDEgcC7CoG0uOzMyMDc="/>
+        <attribute name="edited" value="U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDg6MDU6MjIgcC7CoG0uOzE7MzMxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;ingrese desde que ID quiere iniciar&quot;" newline="True"/>
+            <declare name="ID" type="Integer" array="False" size=""/>
+            <input variable="ID"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="ID"/>
+            <while expression="contador&lt;=10">
+                <output expression="&quot;el inventario es &quot;" newline="True"/>
+                <output expression="(contador)" newline="True"/>
+                <assign variable="contador" expression="contador+1"/>
+            </while>
+            <output expression="&quot;hemos culminado&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
