@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ejemplo1"/>
+        <attribute name="authors" value="laboratorio 3"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 08:47:52 a.&#160;m."/>
+        <attribute name="created" value="bGFib3JhdG9yaW8gMztURUxFTUFUSUNBMzsyMDI0LTEwLTA3OzA3OjEyOjI0IGEuwqBtLjszNjIy"/>
+        <attribute name="edited" value="bGFib3JhdG9yaW8gMztURUxFTUFUSUNBMzsyMDI0LTEwLTA3OzA4OjQ3OjUyIGEuwqBtLjsxOzM3NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;ingrese numero(0 para salir)&quot;" newline="True"/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <while expression="(numero!=0)">
+                <if expression="numero &gt;0">
+                    <then>
+                        <output expression="&quot;es positivo\n&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;es negativo\n&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;ingrese numero(0 para salir)&quot;" newline="True"/>
+                <input variable="numero"/>
+            </while>
+            <output expression="&quot;hasta pronto&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
