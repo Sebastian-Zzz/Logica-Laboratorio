@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="punto_2"/>
+        <attribute name="authors" value="Sergi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-18 09:03:13 p.&#160;m."/>
+        <attribute name="created" value="U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDk6MDA6MTUgcC7CoG0uOzMyMDg="/>
+        <attribute name="edited" value="U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDk6MDI6MzMgcC7CoG0uOzE7U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDg6MDU6MjkgcC7CoG0uO3B1bnRvMV9tb2RpZmljYWNpb24zWzFdLmZwcmc7OTM3Nw=="/>
+        <attribute name="edited" value="U2VyZ2k7TEFQVE9QLUdKTzhLVUpWOzIwMjQtMTAtMTg7MDk6MDM6MTMgcC7CoG0uOzI7MzMxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;inicio rango&quot;" newline="True"/>
+            <declare name="inicio" type="Integer" array="False" size=""/>
+            <input variable="inicio"/>
+            <output expression="&quot;final rango&quot;" newline="True"/>
+            <declare name="hasta" type="Integer" array="False" size=""/>
+            <input variable="hasta"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="inicio" end="hasta" direction="inc" step="2">
+                <if expression="i%2!=0">
+                    <then>
+                        <output expression="&quot;los numeros pares son&quot;" newline="True"/>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;hasta aqui&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
